@@ -1,11 +1,15 @@
 {
-  "name": "proton-ui",
+  "name": "proton",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "An almost flat port of Neutron UI",
+  "private": false,
+  "description": "A flat streamlined theme based on Neutron UI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simko-io/proton"
+  },
   "license": "MIT",
-  "repository": "git@github.com:simko-io/proton-ui.git",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.39.0"
   }
 }
