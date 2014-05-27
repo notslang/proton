@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "An almost flat port of Neutron UI",
   "license": "MIT",
-  "repository": "https://github.com/simko-io/proton-ui",
+  "repository": "git@github.com:simko-io/proton-ui.git",
   "engines": {
     "atom": ">0.50.0"
   }
