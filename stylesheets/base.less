@@ -36,7 +36,9 @@ sadas
       &.cursor-line-no-selection {
         color: @syntax-gutter-text-color-selected;
       }
-      &.git-line-added {
+      &.git-line-added,
+      &.git-line-modified,
+      &.git-line-removed, {
         padding-left: calc(0.75em - 2px)
       }
     }
