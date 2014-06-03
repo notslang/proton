@@ -24,6 +24,7 @@
   .gutter {
     background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
+sadas
 
     .line-number {
       padding: 0 0.25em 0 0.75em;
@@ -34,6 +35,9 @@
 
       &.cursor-line-no-selection {
         color: @syntax-gutter-text-color-selected;
+      }
+      &.git-line-added {
+        padding-left: calc(0.75em - 2px)
       }
     }
   }
