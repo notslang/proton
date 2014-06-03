@@ -27,7 +27,6 @@
 sadas
 
     .line-number {
-      padding: 0 0.25em 0 0.75em;
       &.cursor-line {
         background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
@@ -35,11 +34,6 @@ sadas
 
       &.cursor-line-no-selection {
         color: @syntax-gutter-text-color-selected;
-      }
-      &.git-line-added,
-      &.git-line-modified,
-      &.git-line-removed, {
-        padding-left: calc(0.75em - 2px)
       }
     }
   }
