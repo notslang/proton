@@ -1,6 +1,6 @@
 # Proton UI Theme for Atom
 
-An almost flat theme in shades of gunmetal and medium-contrast colors. **Pair it with the [Proton Monokai Syntax Theme](http://atom.io/packages/proton-monokai)**.
+An almost flat theme in shades of gunmetal and medium-contrast colors. **Pair it with the [Proton Kai Syntax Theme](http://atom.io/packages/proton-kai)**.
 
 Forked from the [Neutron theme](https://github.com/brentd/neutron-ui) by [@brentd](https://github.com/brentd/).
 
