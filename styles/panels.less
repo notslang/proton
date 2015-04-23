@@ -2,13 +2,13 @@
 @import "ui-variables";
 @import "buttons";
 
-.panel {
+.atom-panel {
   &.bordered {
     border-radius: @component-border-radius;
   }
 }
 
-.tool-panel {
+.atom-panel {
   .text(normal);
   position: relative;
 
@@ -26,7 +26,7 @@
     }
   }
 
-  .editor.mini {
+  .atom-text-editor.mini {
     background: rgba(0,0,0,0.1);
     height: 27px;
   }
@@ -38,12 +38,12 @@
 }
 
 .is-blurred {
-  .tool-panel,
+  .atom-panel,
   .inset-panel {
   }
 }
 
-.panel-heading {
+.atom-panel-heading {
   .text(normal);
 
   background-color: transparent;

@@ -2,23 +2,23 @@
 @import "ui-variables";
 @import "buttons";
 
-.pane-item {
-  .panel {
+.atom-pane-item {
+  .atom-panel {
     border-color: fadeout(@inset-panel-border-color, 30%);
   }
 }
 
-.panes {
-  .pane {
+.atom-panes {
+  .atom-pane {
     background-color: lighten(@app-background-color, 4%);
   }
 
-  .pane-row > * {
+  .atom-pane-row > * {
     border-right: 1px solid @pane-item-border-color;
     &:last-child { border-right: none; }
   }
 
-  .pane-column > * {
+  .atom-pane-column > * {
     border-bottom: 1px solid @pane-item-border-color;
     &:last-child { border-bottom: none; }
   }
