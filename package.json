@@ -1,35 +1,15 @@
 {
   "name": "proton",
-  "theme": "ui",
-  "version": "3.0.0",
-  "private": false,
   "description": "A flat streamlined theme based on Neutron UI",
+  "version": "3.0.0",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "license": "MIT",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/jdsimcoe/proton"
   },
-  "license": "MIT",
-  "engines": {
-    "atom": ">0.39.0"
-  },
-  "readme": "# Proton UI Theme for Atom\n\nAn almost flat theme in shades of gunmetal and medium-contrast colors. **Pair it with the [Proton Kai Syntax Theme](http://atom.io/packages/proton-kai)**.\n\nForked from the [Neutron theme](https://github.com/brentd/neutron-ui) by [@brentd](https://github.com/brentd/).\n\n![screenshot](http://cl.ly/image/323M2z0Y1b3f/Image%202014-05-29%20at%208.41.23%20AM.png)\n",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/jdsimcoe/proton/issues"
-  },
-  "homepage": "https://github.com/jdsimcoe/proton",
-  "_id": "proton@3.0.0",
-  "_shasum": "f5604c898e5767c345b5b5f6f32fbc0ad6094f34",
-  "_resolved": "file:../d-115320-33171-9la15x/package.tgz",
-  "_from": "../d-115320-33171-9la15x/package.tgz",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
-  }
+  "theme": "ui"
 }
